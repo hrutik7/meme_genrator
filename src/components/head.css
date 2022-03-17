@@ -1,0 +1,40 @@
+header {
+    width: 100%;
+    height: 30%;
+    background-image: linear-gradient(
+  45deg,
+  hsl(240deg 100% 20%) 0%,
+  hsl(211deg 100% 41%) 22%,
+  hsl(183deg 100% 38%) 44%,
+  hsl(138deg 100% 50%) 100%
+);
+padding-bottom: 0.4rem;
+}
+
+
+header img{
+    margin-top: 3rem;
+    height: 30%;
+    width: 10%;
+    margin-left: -63rem;
+}
+
+header p {
+    font-size: 5rem;
+    width: 28rem;
+    margin-left: 32rem;
+    margin-top: -10rem;
+    color: white;
+}
+
+
+
+
+  .img_2{
+    position: relative;
+    margin-top: -76rem;
+    height: 30%;
+    width: 10%;
+    margin-left: 74rem !important;
+    padding-bottom: 14rem;
+  }

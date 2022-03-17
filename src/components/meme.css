@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@500&family=League+Gothic&family=Pacifico&display=swap');
+
+
+.meme-form input:nth-child(2){
+    margin-left: 9rem;
+    margin-bottom: 4rem;
+    margin-top: 4rem;
+    width: 15rem;
+    height: 3rem;
+    text-align: center;
+    border: none;
+    margin-right: 5rem;
+    border-radius: 50px;
+    border-style: groove;
+    border-color: linear-gradient(
+        45deg,
+        hsl(240deg 100% 20%) 0%,
+        hsl(211deg 100% 41%) 22%,
+        hsl(183deg 100% 38%) 44%,
+        hsl(138deg 100% 50%) 100%
+      );
+}
+
+
+.meme-form input:nth-child(1){
+    border-image: linear-gradient(
+        45deg,
+        hsl(240deg 100% 20%) 0%,
+        hsl(211deg 100% 41%) 22%,
+        hsl(183deg 100% 38%) 44%,
+        hsl(138deg 100% 50%) 100%
+      );
+    margin-left: -10rem;
+    margin-bottom: 4rem;
+    margin-top: 4rem;
+    width: 15rem;
+    height: 3rem;
+    text-align: center;
+    border: none;
+    margin-right: 5rem;
+    border-radius: 50px;
+    border-style: groove;
+}
+
+
+
+.meme-form button{
+    border-image: linear-gradient( 45deg, hsl(240deg 100% 20%) 0%, hsl(211deg 100% 41%) 22%, hsl(183deg 100% 38%) 44%, hsl(138deg 100% 50%) 100% );
+    margin-left: 5rem;
+    margin-bottom: 4rem;
+    margin-top: 4rem;
+    width: 15rem;
+    height: 3rem;
+    text-align: center;
+    border: none;
+    margin-right: -9rem;
+    border-radius: 50px;
+    border-style: groove;
+}
+
+
+
+.top{
+    font-family: 'DM Sans', sans-serif !important;
+    font-family: 'League Gothic', sans-serif !important;
+    font-family: 'Pacifico', cursive;
+    font-size: 4rem;
+    letter-spacing: 3px;
+    margin-top: -21rem;
+    color: white;
+}
+
+
+.bottom{
+    font-family: 'DM Sans', sans-serif !important;
+    font-family: 'League Gothic', sans-serif !important;
+    font-family: 'Pacifico', cursive;
+    font-size: 4rem;
+    letter-spacing: 3px;
+    margin-top: 11rem;
+    color: white;
+}
